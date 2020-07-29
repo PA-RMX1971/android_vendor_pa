@@ -50,6 +50,10 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
+# Realme Devices
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/RMX1921/pa_RMX1971.mk
+
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     pa_A6020-userdebug \
@@ -84,4 +88,5 @@ COMMON_LUNCH_CHOICES += \
     pa_sakura-userdebug \
     pa_whyred-userdebug \
     pa_X00TD-userdebug \
-    pa_X01BD-userdebug
+    pa_X01BD-userdebug \
+    pa_RMX1971-userdebug
